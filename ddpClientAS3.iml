@@ -2,7 +2,7 @@
 <module type="Flex" version="4">
   <component name="FlexBuildConfigurationManager" active="ddpClient">
     <configurations>
-      <configuration name="ddpClient" target-platform="Mobile" pure-as="true" main-class="DdpClient" output-file="DdpClient.swf" output-folder="$MODULE_DIR$/out/production/ddpClient">
+      <configuration name="ddpClient" target-platform="Mobile" pure-as="true" main-class="DDPClient" output-file="DdpClient.swf" output-folder="$MODULE_DIR$/out/production/ddpClient">
         <dependencies target-player="11.8">
           <entries>
             <entry library-name="as3corelib" library-level="project">
