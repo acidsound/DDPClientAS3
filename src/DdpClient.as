@@ -27,10 +27,10 @@ public class DdpClient extends Sprite {
 
   private function messageWebSocketHandler(event:WebSocketEvent):void {
     var message:Object = JSON.parse(event.message.utf8Data);
-    trace("msg:"+message.msg + " // "+event.message.utf8Data);
+    trace(event.message.utf8Data);
     if (message.msg === "connected") {
       connected = true;
-      trace("subscribe to post collection");
+      trace("subscribe to Posts collection");
       ws.sendUTF(JSON.stringify({
         msg: 'sub',
         id: (++nextId).toString(),
